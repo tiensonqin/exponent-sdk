@@ -13,3 +13,12 @@ for (let key in SvgModules) {
   }
 }
 export { Svg };
+
+// WebRTC
+export RTCPeerConnection from './Webrtc/RTCPeerConnection';
+export RTCIceCandidate from './Webrtc/RTCIceCandidate';
+export RTCSessionDescription from './Webrtc/RTCSessionDescription';
+export RTCView from './Webrtc/RTCView';
+export MediaStream from './Webrtc/MediaStream';
+export MediaStreamTrack from './Webrtc/MediaStreamTrack';
+export getUserMedia from './Webrtc/getUserMedia';
